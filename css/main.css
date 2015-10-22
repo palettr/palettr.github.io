@@ -1,0 +1,251 @@
+body
+{
+    margin: 0!important;
+    padding: 0!important;
+    font-family: helvetica;
+    background: #303030;
+    color: #ffffff;
+}
+
+.l-1200
+{
+    width: 1200px;
+}
+
+.logo-name
+{
+    position: relative;
+    top: -12px;
+    left: 20px;
+    font-size: 35px;
+}
+
+header
+{
+    height: 100px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    background: #505050;
+}
+
+header ins 
+{
+    margin: -10px 0 0 215px;
+}
+
+.paletteRow
+{
+    margin-bottom: 100px
+}
+
+.palette
+{
+    height: 145px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: 2px solid #505050;
+}
+
+.color, .colorDiv
+{
+    width: 120px !important;
+    height: 120px !important;
+    margin-right: 10px;
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    outline: none;
+}
+
+.addNewColor
+{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    background: #ffffff;
+    border: 0;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+
+.addNewColor:active
+{
+    background: #909090;
+    color: #ffffff;
+}
+
+.addNewPalette
+{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    background: #ffffff;
+    border: 0;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addNewPalette:active
+{
+    background: #909090;
+    color: #ffffff;
+}
+
+.removePalette
+{
+    margin: 0;
+}
+
+.generalBtn
+{
+    height: 35px;
+    margin: 10px 5px 0 0;
+    background: #ffffff;
+    border: 0;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    color: #303030;
+}
+
+.generalBtn:active
+{
+    background: #909090;
+    color: #ffffff;
+}
+
+.aGeneralBtn
+{
+    padding: 12px 8px 0 8px;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.urlShare
+{
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+}
+
+.urlShareLabel
+{
+    margin-left: 50px;
+}
+
+input[type="file"]
+{
+    width: 85px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 470px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.deleteColorBtn
+{
+    width: 20px;
+    height: 20px;
+    background: #303030;
+    position: relative;
+    right: -100px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.icon-cross
+{
+    position: relative;
+    top: -118px;
+    color: #ffffff;
+}
+
+.url-too-long
+{
+    width: 100%;
+    height: 35px;
+    line-height: 2;
+    text-align: center;
+    background: red;
+    color: #ffffff;
+    opacity: 0.8;
+    display: none;
+    visibility: hidden;
+}
+
+footer
+{
+    background: #404040;
+    position: fixed;
+    bottom: 0;
+}
+
+footer img
+{
+    width: 25px;
+    height: 25px;
+}
+
+footer label
+{
+    position: relative;
+    top: -4px;
+    left: 10px;
+    font-size: 22px;
+}
+
+.small-footer-text
+{
+    font-size: 13px;
+}
+
+.footer-notes
+{
+    margin-left: 100px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+.copyright
+{
+    font-size: 12px;
+    line-height: 2;
+}
+
+.twitter-button
+{
+    margin-left: 50px;
+}
+
+.twitter-button a 
+{
+    visibility: hidden;
+}
+
+.about
+{
+    width: 100%;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 50px;
+    background: #505050;
+}
+
+.close-about 
+{
+    font-size: 13px;
+    color: #F35564;
+    cursor: pointer;
+}

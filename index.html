@@ -1,0 +1,104 @@
+<!DOCUMENT html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/base5.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <title>Palettr</title>
+    </head>
+    <body id="remove-about">
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-68676944-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+        <div id="url-too-long" class="url-too-long">
+            Url is too long, please export colors and then attach to email.
+        </div>
+        <header class="row">
+            <div class="s-100 m-65 l-1200 center">
+                <div class="row">
+                    <div class="s-100 m-100 l-20 col">
+                        <img src="images/logo.png" /><label class="logo-name">Palettr</label>
+                    </div>
+                    <div class="s-100 m-100 l-80 col">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- palettrGithub -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:728px;height:90px"
+                             data-ad-client="ca-pub-9907507469849777"
+                             data-ad-slot="9100617843"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="s-100 m-65 l-1200 center">
+                <section class="row fixed-content">
+                    <input type="button" id="addNewPalette" class="addNewPalette" value="+ New Palette"/>
+                    <label for="urlShare" class="urlShareLabel">Share URL : </label>
+                    <input type="text" id="urlShare" class="urlShare" onClick="this.select();" />
+                    <a id="exportColors" class="generalBtn aGeneralBtn" value="Export colors" download="palettr.txt">Export colors</a>
+                    <input type="button" class="generalBtn" value="Import colors"/>
+                    <input type="file" id="fileUpload"/>
+                    <input type="button" id="sendMail" class="generalBtn" value="Send Email"/>
+                </section>
+                <section class="row paletteRow" id="paletteRow">
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about" id="about-block">
+                <div class="l-1200 center">
+                    <p>
+                        Palettr is a simple color palette creation tool.  Palettr is all about easily creating color palettes and sharing them with others.
+                    </p>
+                    <p>
+                        With Palettr you can create color palettes and share them with friends and clients. To share your color palettes just copy the link provided and share that on your favourite social networks.
+                    </p>
+                    <p>
+                        If you have a color palette that is too large to share or if you just want to be able to save your color palette you can export it. When you click on the export button Palettr will ask if you want to download the file. You can share this file if you like. To view the color palette that you exported just click on the import button and select the exported color palette file. Once imported you should be able to see all of your color palettes that are part of the export file. 
+                    </p>
+                    <p>
+                        TIP: You can also import multiple color palette files and then export all the imported files as one big export :)
+                    </p>
+                    <label class="close-about" id="close-about">
+                        Close
+                    </label>
+                </div>
+            </div>
+        </div>
+        <footer class="row">
+            <div class="s-100 m-65 l-1200 center">
+                <div class="row">
+                    <img src="images/logo.png"/>
+                    <label>Palettr</label>
+                    <span class="footer-notes" id="footer-notes">
+                        About
+                    </span>
+                    <span class="twitter-button">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://palettr.github.io/palettr/">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/base64.js"></script>
+        <script src="js/jqColorPicker.min.js"></script>
+    </body>
+</html>
